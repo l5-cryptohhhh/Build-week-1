@@ -581,3 +581,13 @@ body {
   opacity: 1;
   transform: scale(1.15);
 }
+
+.feedback-star--locked {
+  filter: grayscale(0%); 
+}
+
+.feedback-star--active,
+.feedback-star--locked {
+  filter: grayscale(0%);
+  opacity: 1;
+}
